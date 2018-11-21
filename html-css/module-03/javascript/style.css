@@ -1,0 +1,11 @@
+.box1 {
+    width: 100px;
+    height: 40px;
+    background: blue;
+    border: 5px solid transparent;
+    padding: 10px;
+    display: inline-block;
+}
+.box1:hover{
+    border: 5px solid orangered;
+}
