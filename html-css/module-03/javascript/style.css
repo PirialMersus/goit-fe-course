@@ -4,7 +4,7 @@ body {
 }
 .wrapper {
     background: #fff;
-    height: 100vh;
+    height: 2080px;
     width: 900px;
     padding-top: 30px;
     margin: auto;
@@ -13,7 +13,7 @@ body {
 .menu-item {
     width: 120px;
     height: 40px;
-    background: whitesmoke;
+    background: #fff;
     margin: 0 20px 20px 20px;
     font-size: 24px;
     line-height: 40px;
@@ -23,6 +23,10 @@ body {
 }
 .menu-link {
     display: block;
+    text-decoration: none;
+}
+.menu-link:hover{
+    opacity: 0.8;
 }
 .nav1 {
     margin-left: 120px;
@@ -31,3 +35,31 @@ body {
     margin-right: 0;
     color: white;
 }
+.signature {
+    font-size: 16px;
+}
+.title {
+    font-size: 30px;
+}
+.text {
+    font-size: 14px;
+}
+.column {
+    width: 400px;
+    display: inline-block;
+}
+.column-right {
+    margin-left: 81px;
+}
+/* }.img-column2 {
+    margin-right: 100px;
+} */
+.btn {
+    display: block;
+    font-size: 2em;
+    padding: 0.75em 1em;
+    background-color: #1ce;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
