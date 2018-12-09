@@ -13,9 +13,21 @@ body {
   font-size: 11px;
   line-height: 24px;
 }
+  .visually-hidden:not(:focus):not(:active), input[type="checkbox"].visually-hidden, input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
 .container {
   width: 900px;
-  background: #ebeced;
+  background: white;
   margin: 0 auto;
 }
 .align-nav {
@@ -30,11 +42,14 @@ body {
   margin: 0;
   padding: 0;
   font-size: 0;
-  margin-bottom: 0;
+  margin-bottom: 40px;
 }
 
 .features-list-item:nth-child(2n) {
   margin-right: 0;
+}
+.features-list-item:nth-last-child(-n + 2) {
+  margin-bottom: 0;
 }
 
 .features-list-item {
@@ -43,6 +58,7 @@ body {
   display: inline-block;
   margin-right: 60px;
   font-size: 14px;
+  margin-bottom: 30px;
 }
 .features-list-item h2 {
   font-size: 30px;
@@ -54,13 +70,13 @@ body {
 .box-title {
   font-size: 10px;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .box-subtitle {
   color: #b4ad9e;
-  margin: 10px;
+  margin: 0px;
   text-transform: uppercase;
-  /* margin-bottom: 0px; */
+  margin-bottom: 30px;
 }
 
 
@@ -68,12 +84,12 @@ body {
   margin: 0;
   padding: 0;
   display: inline-block;
-  background: #ebeced;
   font-size: 24px;
   line-height: 40px;
   color: rgb(68, 20, 20);
 
   list-style: none;
+  
 }
 .menu li {
   display: inline-block;
@@ -93,6 +109,7 @@ body {
   font-size: 14px;
   color: #626262;
   text-transform: uppercase;
+  
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -106,6 +123,11 @@ body {
   margin: 0 auto;
   color: #626262;
   text-decoration: none;
+}
+.btn-footer:hover,
+.btn-footer:focus {
+  background: #d7d4f5;
+  
 }
 .paragraph {
   margin: 0;
