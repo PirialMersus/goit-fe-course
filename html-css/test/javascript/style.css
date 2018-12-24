@@ -1,0 +1,74 @@
+/* 
+* Последовательно раскомментируйте CSS-правила и посмотрите результат */
+
+/* Выберет первый элемент в коллекции соседей */
+/* .list li:first-child {
+  background-color: #03a9f4;
+} */
+
+/* Выберет все элементы в коллекции соседей кроме первого*/
+/* .list li:not(:first-child) {
+  background-color: #03a9f4;
+} */
+
+/* Выберет последний элемент в коллекции соседей */
+/* .list li:last-child {
+  background-color: #03a9f4;
+} */
+
+/* Выберет все элементы в коллекции соседей кроме последнего*/
+/* .list li:not(:last-child) {
+  background-color: #03a9f4;
+} */
+
+/* Выберет все не четные элементы коллекции */
+/* .list li:nth-child(odd) {
+  background-color: #03a9f4;
+} */
+
+/* Выберет все четные элементы коллекции */
+/* .list li:nth-child(even) {
+  background-color: #03a9f4;
+} */
+
+/* Выберет все элементы коллекции начиная с третьего*/
+/* .list li:nth-child(n + 3) {
+  background-color: #03a9f4;
+} */
+
+/* Выберет первые 3 элемента коллекции*/
+/* .list li:nth-child(-n + 3) {
+  background-color: #03a9f4;
+} */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: 0, 0, 255;
+  }
+  
+  .list {
+    border: 2px solid #424242;
+    padding: 5px;
+    list-style: none;
+    font-family: Roboto, sans-serif;
+  }
+  
+  .list li {
+    padding: 4px 0;
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .list li:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+  .container {
+    max-width: 480px;
+    margin: auto;
+    padding: 10px;
+  }
