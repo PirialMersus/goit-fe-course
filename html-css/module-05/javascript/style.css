@@ -260,7 +260,7 @@ img {
   height: 261px;
 }
 .products-item:hover .rectangle {
-opacity: 0.549;
+  opacity: 0.549;
 }
 .rectangle:hover .product {
   background: #1abc9c;
@@ -285,16 +285,16 @@ opacity: 0.549;
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 8px;
-  
 }
+
 .heart {
-  background-image: url(/html-css/module-05/img/2.png);
+  background-image: url(../img/2.png);
 }
 .arrows {
-  background-image: url(/html-css/module-05/img/1.png);
+  background-image: url(../img/1.png);
 }
 .clock {
-  background-image: url(/html-css/module-05/img/3.png);
+  background-image: url(../img/3.png);
 }
 .links::not(:last-child) {
   margin-right: 8px;
@@ -307,17 +307,17 @@ opacity: 0.549;
   border-style: solid;
   background-repeat: no-repeat;
   background-position: 17px center;
-  background-image: url(/html-css/module-05/img/4.png);
-  background-color:#323232;
+  background-image: url(../img/4.png);
+  background-color: #323232;
 }
-.actions-item:hover .links{
+.actions-item:hover .links {
   background-color: #1abc9c;
 }
 .actions-item-basket:hover {
   background-color: #1abc9c;
 }
 .basket {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
@@ -325,4 +325,3 @@ opacity: 0.549;
   padding-left: 60px;
   line-height: 50px;
 }
-
