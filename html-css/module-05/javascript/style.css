@@ -24,14 +24,12 @@ img {
   width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
-  
 }
 
 .container-products {
-  width: 1600px;
-  height: 680px;
   margin: auto;
   background: #e9f0fd;
+  height: 676px;
 }
 .clearfix::after {
   display: table;
@@ -90,8 +88,10 @@ img {
 }
 .slider {
   background-image: url(../img/slide4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
   position: relative;
-  width: 1600px;
   height: 600px;
   margin: 0 auto;
   margin-bottom: 0;
@@ -100,10 +100,9 @@ img {
   padding-bottom: 18px;
   font-size: 70px;
   color: white;
-  opacity: 0.651;
   display: inline-block;
   border: none;
-  background-color: rgb(26, 188, 156);
+  background-color: rgba(26, 188, 156, 0.651);
   position: absolute;
   top: 226px;
   width: 104px;
@@ -230,8 +229,8 @@ img {
 }
 
 .site-footer {
-  width: 1600px;
-  height: 90px;
+  padding: 0;
+  margin: 0;
   margin: auto;
   background: #323232;
 }
