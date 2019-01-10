@@ -27,9 +27,7 @@ img {
 }
 
 .container-products {
-  margin: auto;
   background: #e9f0fd;
-  height: 676px;
 }
 .clearfix::after {
   display: table;
@@ -93,7 +91,9 @@ img {
   display: block;
   position: relative;
   height: 600px;
+  width: 1600px;
   margin: 0 auto;
+
   margin-bottom: 0;
 }
 .slider-ctrl {
@@ -171,6 +171,7 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-bottom: 100px;
 }
 .products-item {
   position: relative;
