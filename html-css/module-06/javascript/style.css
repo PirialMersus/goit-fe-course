@@ -62,11 +62,8 @@ img {
   text-transform: uppercase;
   transition: all 0.2s linear;
 }
-
-.site-navigation-item:hover {
-  color: #f38181;
-}
-.site-navigation-item:hover::after{
+.site-navigation-item::after {
+  opacity: 0;
   content: "";
   display: block;
   width: 50px;
@@ -74,7 +71,15 @@ img {
   margin: auto;
   position: absolute;
   bottom: -10px;
+  transition: all 0.2s linear;
 }
+
+.site-navigation-item:hover {
+  color: #f38181;
+}
+.site-navigation-item:hover::after{
+  opacity: 1;
+
 .site-navigation-item:focus {
   color: #f00a0a;
 }
