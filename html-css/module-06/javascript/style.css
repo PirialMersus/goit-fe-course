@@ -65,11 +65,8 @@ img {
   opacity: 0;
   content: "";
   display: block;
-  width: 50px;
-  border-bottom: 3px solid #f38181;
-  margin: auto;
-  position: absolute;
-  bottom: -10px;
+  background-color: #f38181;
+  height: 3px;
   transition: all 0.2s linear;
 }
 
@@ -77,6 +74,7 @@ img {
   color: #f38181;
 }
 .site-navigation-item:hover::after {
+  transform: scale(1);
   opacity: 1;
 }
 .site-navigation-item:focus {
@@ -168,7 +166,7 @@ img {
   width: 80px;
 }
 .icon-computer {
-  background-image: url(../img/COMPUTER\_\OK.png);
+  background-image: url(../img/comp.png);
   margin: 0 auto;
   text-align: center;
   background-repeat: no-repeat;
