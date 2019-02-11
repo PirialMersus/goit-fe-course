@@ -28,6 +28,7 @@ img {
   /* margin-bottom: 136px; */
 }
 .page-nav {
+  background: wheat;
   padding-top: 18px;
   justify-content: space-between;
   display: flex;
@@ -62,7 +63,6 @@ img {
   transition: all 0.2s linear;
 }
 .site-navigation-item::after {
-  opacity: 0;
   content: "";
   display: block;
   background-color: #f38181;
@@ -75,7 +75,6 @@ img {
 }
 .site-navigation-item:hover::after {
   transform: scale(1);
-  opacity: 1;
 }
 .site-navigation-item:focus {
   color: #f00a0a;
