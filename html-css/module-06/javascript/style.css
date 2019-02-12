@@ -24,15 +24,12 @@ img {
   width: 1200px;
   margin: 0 auto;
   padding: 0;
-  /* background: #e9faf7; */
-  /* margin-bottom: 136px; */
 }
 .page-nav {
-  background: wheat;
   padding-top: 18px;
   justify-content: space-between;
   display: flex;
-  align-items: flex-end;
+  align-items: baseline;
 }
 .site-logo {
   font-family: "Montserrat", sans-serif;
@@ -41,6 +38,7 @@ img {
   text-decoration: none;
   font-size: 30px;
   color: #95e1d3;
+  margin-top: 26px;
 }
 
 .site-navigation {
@@ -65,8 +63,10 @@ img {
 .site-navigation-item::after {
   content: "";
   display: block;
+  margin-top: 10px;
   background-color: #f38181;
   height: 3px;
+  transform: scaleX(0);
   transition: all 0.2s linear;
 }
 
@@ -74,7 +74,7 @@ img {
   color: #f38181;
 }
 .site-navigation-item:hover::after {
-  transform: scale(1);
+  transform: scaleX(1);
 }
 .site-navigation-item:focus {
   color: #f00a0a;
@@ -111,7 +111,6 @@ img {
   border-bottom: 3px solid #f38181;
   margin: auto;
   margin-top: 40px;
-  /* margin-bottom: 64px; */
 }
 .our-work {
   display: flex;
