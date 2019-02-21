@@ -38,11 +38,10 @@ img {
   text-decoration: none;
   font-size: 30px;
   color: #95e1d3;
-  margin-top: 26px;
 }
 
 .site-navigation {
-  position: relative;
+  /* position: relative; */
   display: flex;
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
@@ -226,6 +225,7 @@ img {
 }
 .text-our-team {
   margin: 0 auto;
+  width: 980px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #999999;
@@ -239,21 +239,24 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
+  /* position: relative; */
 }
 .workers-cards-item {
   position: relative;
   width: 380px;
   list-style-type: none;
-  /* font-size: 14px; */
-  margin-bottom: 30px;
   text-align: center;
+
 }
 
 .images {
-  position: absolute;
+  /* position: relative; */
   transition: all 0.2s linear;
+  margin-bottom: 30px;
 }
 .full-name {
+  margin: 0;
+  padding: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -265,18 +268,21 @@ img {
   font-size: 15px;
   font-weight: 300;
   color: #999999;
+  margin: 0;
+  padding: 0;
 }
-.line {
+/* .line {
   margin: 0 auto;
   width: 1200px;
   height: 1px;
   background: rgb(229, 229, 229);
   margin-bottom: 24px;
-}
+} */
 .copyright {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  margin-left: -15px;
 }
 .email-btn {
   display: block;
@@ -285,7 +291,7 @@ img {
   background: #95e1d3;
   text-decoration: none;
   border: none;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -293,13 +299,15 @@ img {
   background: #8cd4c7;
   transition: all 0.2s linear;
 }
-.form {
+.form-email {
   display: flex;
 }
 .site-footer {
   display: flex;
-  position: relative;
+  /* position: relative; */
   justify-content: space-between;
+  border-top: 1px solid rgb(229, 229, 229);
+  padding-top: 12px;
 }
 .autor-link {
   text-decoration: none;
@@ -325,6 +333,7 @@ input {
   align-items: center;
   justify-content: center;
   position: absolute;
+  top: 0px;
   background-image: -moz-linear-gradient(
     90deg,
     rgba(252, 227, 138, 0.9) 0%,
@@ -346,15 +355,16 @@ input {
   transition: all 0.2s linear;
 }
 
-.backgound-icon {
+/* .backgound-icon {
   width: 380px;
   height: 470px;
   background: #95e1d3;
   margin: 0;
   margin-bottom: 30px;
-}
+} */
 .workers-cards-item:hover .images {
   transform: translate(-10px, -10px);
+  box-shadow: 10px 10px 0 #95e1d3;
 }
 .workers-cards-item:hover .rectangle {
   opacity: 1;
