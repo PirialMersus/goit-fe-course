@@ -162,10 +162,10 @@ img {
   background-position: center;
 }
 .icon-basket::before {
-  background-image: url(/html-css/module-07/img/Icon-Basket.png);
+  background-image: url(../img/Icon-Basket.png);
 }
 .icon-desk::before {
-  background-image: url(/html-css/module-07/img/Icon-Laptop.png);
+  background-image: url(../img/Icon-Laptop.png);
 }
 .icon-lock::before {
   background-image: url(../img/Icon-Locked.png);
@@ -204,7 +204,7 @@ img {
 .form1 {
   height: 674px;
   background: #222222;
-  background-image: url(../img/Map\Image.png);
+  background-image: url(../img/map-image.png);
   background-repeat: no-repeat;
   background-position: right;
 }
