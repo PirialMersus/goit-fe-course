@@ -270,13 +270,7 @@ img {
   margin: 0;
   padding: 0;
 }
-/* .line {
-  margin: 0 auto;
-  width: 1200px;
-  height: 1px;
-  background: rgb(229, 229, 229);
-  margin-bottom: 24px;
-} */
+
 .copyright {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -354,13 +348,6 @@ input {
   transition: all 0.2s linear;
 }
 
-/* .backgound-icon {
-  width: 380px;
-  height: 470px;
-  background: #95e1d3;
-  margin: 0;
-  margin-bottom: 30px;
-} */
 .workers-cards-item:hover .images {
   transform: translate(-10px, -10px);
   box-shadow: 10px 10px 0 #95e1d3;
